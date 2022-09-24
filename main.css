@@ -2,57 +2,76 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 body {
-    background-color: #e7e7e7;
-    padding-top: 100px;
+    background-color: #d3edf7;
+    padding-top: 12px;
+}
 
+body h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 header {
-    display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
 
-header img{
-    height: 36px;
-    margin-right: 16px;
-}
-
-header h1 {
-    font-size: 40px;
-    font-weight: bold;
+img{
+    max-width: 960px;
+    margin:auto;
+    padding: 16px;
+    display: flex;
 }
 
 .container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+    align-items: center;
 }
 form {
     display: flex;
-    max-width: 640px;
+    max-width: 960px;
     width: 0 auto;
     justify-content: space-between;
-    margin-bottom: 56px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+label {
+    color: #01B0F1;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #01B0F1;
+    font-size: 16px;
+    font-style: italic;
+    padding: 4px;
+
 }
 
 form input {
-    font-size: 24px;
+    font-size: 18px;
     background-color: #fff;
     border: none;
-    border-bottom: 2px solid #000;
     padding: 8px;
 }
 
 form button {
-    background-color: #009432;
-    color: #fff;
-    font-size: 24px;
+    background-color: #01B0F1;
+    color: #000;
+    font-size: 16px;
     font-weight: bold;
-    border: none;
+    border: 16px;
     cursor: pointer;
     padding: 8px;
 }
@@ -62,36 +81,21 @@ table {
 }
 
 table th {
-    border-bottom: 2px solid #000;
-    padding: 16px;
+    color: black;
+    text-align: justify;
+    padding: 8px;
     font-size: 24px;
     font-weight:bold;
 }
 
 table td{
-    padding: 16px 0;
-    text-align: center;
+    padding: 8px 0;
+    text-align: justify;
     font-size: 18x;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-weight:bold;
+    color: #01B0F1;
 }
 
 table td img{
     height:30px;
     }
-
-    .resultado {
-        padding: 8px;
-        font-weight: bold;
-        color:#fff;
-        background-color: #000;
-        border-radius: 3px;
-    }
-
-.aprovado {
-    background-color: #009432;
-}
-
-.reprovado {
-    background-color: red;
-
-}
