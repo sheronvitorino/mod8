@@ -5,28 +5,16 @@
     font-family: 'Inter', sans-serif;
 }
 body {
-    background-color: #d3edf7;
+    background-color: rgb(235, 235, 235);
     padding-top: 12px;
 }
 
 body h1{
-    font-size: 50px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 300px;
     margin-bottom: 24px;
-}
-
-header {
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-img{
-    max-width: 960px;
-    margin:auto;
-    padding: 16px;
-    display: flex;
 }
 
 .container {
@@ -41,39 +29,41 @@ form {
     width: 0 auto;
     justify-content: space-between;
     margin-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     align-items: center;
 }
 
 label {
-    color: #01B0F1;
+    color: ;
     font-weight: bold;
     font-size: 16px;
 }
 
 input::placeholder {
-    color: #01B0F1;
+    color: black;
     font-size: 16px;
-    font-style: italic;
+    font-style: normal;
     padding: 4px;
+    border-color: black;
 
 }
 
 form input {
     font-size: 18px;
     background-color: #fff;
-    border: none;
+    border: black;
     padding: 8px;
 }
 
 form button {
-    background-color: #01B0F1;
+    background-color: #f8fbfc;
     color: #000;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
     border: 16px;
     cursor: pointer;
     padding: 8px;
+    border-color: black;
 }
 
 table {
@@ -89,13 +79,10 @@ table th {
 }
 
 table td{
+    list-style-type: disc;
+    text-align: center;
     padding: 8px 0;
-    text-align: justify;
     font-size: 18x;
     font-weight:bold;
-    color: #01B0F1;
+    color: #000000b4;
 }
-
-table td img{
-    height:30px;
-    }

@@ -4,35 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda de Contatos</title>
+    <title>Minhas Tarefas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./main.css">
 </head>
 <body >
-    <img src="./imagens/banner-contatos.jpg" alt="contatos-fundo">
-    <h1>Agenda de Contatos</h1>
+    <h1>Lista de Tarefas</h1>
     <div class="container">
-        <form id="dados-pessoas">
-            <input type="text" id="nome-contato" required placeholder="Nome Completo" style="width:500px;" required/>
-            <input type="number" id="telefone-pessoa" required placeholder="Telefone" style="width: 250px;" required/>
-            <button type="submit">Adicionar +</button>
+        <form id="dados-tarefa">
+            <input type="text" id="lista-tarefa" required placeholder="Lista de Tarefas" style="width:850px;" required/>
+            <button type="submit" style="width:100px;">Cadastrar</button>
         </form>
         <table cellspacing="0">
-            <thead>
-                <tr>
-                    <th>Contato</th>
-                    <th>Telefone </th>
-                </tr>
-            </thead>
             <tbody>
-
             </tbody>
             <tfoot>
                 <tr>
-                    <td id="contato-nome">---</td>
-                    <td id="contato-telefone">---</td>
+                    <td id="nome-tarefa"></td>
                 </tr>
             </tfoot>
         </table>    
